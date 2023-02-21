@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 90vh;
+}
+
+section#principal {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#info-personal {
+    background-color: rgb(207, 202, 202);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#proyectos {
+    background-color: rgb(185, 181, 181);
+}
+
+section#contacto {
+    height: 80%;
+    background-color: rgb(177, 170, 170);
+}
+
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+section#info-personal h2 {
+    margin: 60px;
+}
+
+section#info-personal h3 {
+    margin-top: 40px;
+}
+
+section#info-personal h4 {
+    margin: 10px;
+    padding: 30px;
+    font-size: 17pt;
+}
+
+section#info-personal p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17pt;
+    text-align: center;
+    justify-content: center;
+}
+
+section#info-personal img {
+    width: 250px;
+    height: 250px;
+}
+
+.proyectos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto-detalle {
+    border: 8px solid lightseagreen;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+.proyecto-detalle img {
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(242, 226, 220);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
